@@ -9,3 +9,7 @@ eureka:
 spring:
   zipkin:
     baseUrl: http://zipkin-svc:9411
+okta:
+  ouath2:
+    issuer: https://dev-4uahaqfo4t52rnu0.us.auth0.com
+    audiences: https://dev-4uahaqfo4t52rnu0.us.auth0.com/api/v2/
